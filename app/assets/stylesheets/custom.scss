@@ -1,0 +1,19 @@
+#logo{
+  font-size: 1.7em;
+  color: #000000;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  font-weight: bold;
+  &:hover{
+    color: #B00100;
+    text-decoration: none;
+  }
+}
+
+.jumbotron .jumboheader{
+  display: flex;
+  flex-direction: row;
+  img{
+    margin-left: 5em;
+  }
+}
