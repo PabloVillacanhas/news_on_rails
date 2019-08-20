@@ -18,6 +18,15 @@
   }
 }
 
+body{
+  .row{
+    margin: 15px auto auto;
+    form{
+      width: 50%;
+    }
+  }
+}
+
 footer{
   display: flex;
   flex-flow: row wrap;
