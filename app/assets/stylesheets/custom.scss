@@ -18,6 +18,13 @@
   }
 }
 
+.errorlist{
+  $textcolor : red;
+  li{
+    color: $textcolor;
+    list-style: none;
+  }
+}
 body{
   .row{
     margin: 15px auto auto;

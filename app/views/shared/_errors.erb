@@ -1,0 +1,12 @@
+<% if obj.errors.any? %>
+  <div class="row">
+    <div class="alert alert-danger" role="alert">
+      <h4 class="alert-heading">Oh no!</h4>
+      <p>The following <%= "error".pluralize(obj.errors.count) %> prevent the article from being created</p>
+      <hr/>
+      <% obj.errors.full_messages.each do |msg| %>
+        <div class="mb-0"><%= msg %></div>
+      <% end %>
+    </div>
+  </div>
+<% end %>
