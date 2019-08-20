@@ -17,3 +17,18 @@
     margin-left: 5em;
   }
 }
+
+footer{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  margin-top: 45px;
+  padding-top: 5px;
+  border-top: 1px solid #000000;
+  ul{
+    list-style: none;
+  }
+  a:hover{
+    color: #222
+  }
+}
